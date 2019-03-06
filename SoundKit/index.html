@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>SoundKit</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="keyboard">
+            <div class="key" id="a">
+                A
+                <span class="sound">boom</span>
+            </div>
+            <div class="key" id="s">
+                S
+                <span class="sound">clap</span>
+            </div>
+            <div class="key" id="d">
+                D
+                <span class="sound">hihat</span>
+            </div>
+            <div class="key" id="f">
+                F
+                <span class="sound">kick</span>
+            </div>
+            <div class="key" id="g">
+                G
+                <span class="sound">open</span>
+            </div>
+            <div class="key" id="h">
+                H
+                <span class="sound">ride</span>
+            </div>
+            <div class="key" id="j">
+                J
+                <span class="sound">snare</span>
+            </div>
+            <div class="key" id="k">
+                K
+                <span class="sound">tom</span>
+            </div>
+            <div class="key" id="l">
+                L
+                <span class="sound">tink</span>
+            </div>
+        </div>
+
+        <div class="records">
+            <div class="recordHolder">
+                <div id="status1">No record</div>
+                <button id="playButton1" onclick="playRecord(1)">Play track 1</button><button id="rButton1" onclick="startRecord(1)">Record track 1</button>
+            </div>
+            <div class="recordHolder">
+                <div id="status2">No record</div>
+                <button id="playButton2" onclick="playRecord(2)">Play track 2</button><button id="rButton2" onclick="startRecord(2)">Record track 2</button>
+            </div>
+            <div class="recordHolder">
+                <div id="status3">No record</div>
+                <button id="playButton3" onclick="playRecord(3)">Play track 3</button><button id="rButton3" onclick="startRecord(3)">Record track 3</button>
+            </div>
+            <div class="recordHolder">
+                <div id="status4">No record</div>
+                <button id="playButton4" onclick="playRecord(4)">Play track 4</button><button id="rButton4" onclick="startRecord(4)">Record track 4</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

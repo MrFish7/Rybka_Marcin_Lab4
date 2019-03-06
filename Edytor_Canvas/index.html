@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+    <div class="content">
+        <canvas width="300" height="300" id="plotno">
+
+        </canvas>
+
+        <div class="buttons">
+            <button id="run" class="run">Pobierz piksele</button><br />
+            <button id="brightplus" class="bright">Jasność +</button>
+            <button id="brightminus" class="bright">Jasność -</button>
+            <p>Kontrast: (<i id="contrast-value"></i>)</p>
+            <input type="range" value="0" min="-10" max="10" id="contrast"><br />
+            <p>Nasycenie: (<i id="saturation-counter"></i>)</p>
+            <input type="range" min="0" max="360" class="form-control-range" id="saturation"><br />
+            <input type="range" min="0" max="100" class="form-control-range" id="saturation1"><br />
+            <input type="range" min="0" max="100" class="form-control-range" id="saturation2"><br />
+
+            <button id="invert" class="invert">Negatyw</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

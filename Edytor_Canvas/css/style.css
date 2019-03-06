@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/gravel.png");
+}
+
+.content {
+    width: 100%;
+    height: 600px;
+}
+
+#plotno {
+    margin-top: 50px;
+    margin-left: 150px;
+    border: 3px solid black;
+}
+
+.buttons {
+    background: lightgrey;
+    margin-top: 50px;
+    margin-right: 300px;
+    text-align: center;
+    padding: 50px;
+    float: right;
+    border: 3px solid black;
+}
+
+.bright {
+    background: #66ff66;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s;
+    margin-bottom: 25px;
+}
+
+.bright:active {
+    box-shadow: 0 5px #5a5a5a;
+    transform: translateY(4px);
+}
+
+.bright:hover {
+    background: #339966;
+    color: white;
+}
+
+.run {
+    background: #FF0000;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s;
+    margin-bottom: 25px;
+}
+
+.run:hover {
+    background: #ff3333;
+    color: white;
+}
+
+.run:active {
+    box-shadow: 0 5px #5a5a5a;
+    transform: translateY(4px);
+}
+
+.invert {
+    background: #66ff66;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s;
+    margin-bottom: 25px;
+}
+
+.invert:active {
+    box-shadow: 0 5px #5a5a5a;
+    transform: translateY(4px);
+}
+
+.invert:hover {
+    background: #339966;
+    color: white;
+}
+
+input[type=range]::-moz-range-track {
+    border-radius: 2px;
+    height: 15px;
+    background-color: limegreen;
+}
+
+input[type=range]::-moz-range-thumb {
+    background: tomato;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
