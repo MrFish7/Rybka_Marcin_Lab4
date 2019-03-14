@@ -1,7 +1,7 @@
 window.addEventListener('load', function () {
     let addBtn = document.querySelector('.add')
     let clearButton = document.querySelector('.clear')
-    let notes, sticky, span, button, value, key
+    let notes, sticky, span, button, value, key;
 
     //Utworzenie nowej notatki
     addBtn.addEventListener('click', function () {
